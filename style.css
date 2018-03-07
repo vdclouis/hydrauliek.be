@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'web';
+    src: url('fonts/web.woff2') format('woff2'),
+         url('fonts/web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: 'web';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0,51,69);
+    color: rgb(255,255,99);
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 2em 0 0 0;
+}
+
+h2 {
+    font-size: 64px;
+    margin: 0;
+}
